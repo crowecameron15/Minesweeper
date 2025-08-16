@@ -1,0 +1,19 @@
+ TO DO:
+
+1)[Done] Opening all safe cells win the game
+    NOTE: marking all cells successfully ends game at the moment (8/4/2025)
+2) Topics I want to try and implement:
+  - Logging
+  - Exceptions (log these)
+3) [Done] If the player explores a mine, print the field in its current state,
+   with mines shown as X symbols. After that, output the message:
+   You stepped on a mine and failed!.
+   - Implement a gameOver method which prints the current board with mines marked as X's
+4) [Done, not tested] Generate mines like in the original game: the first cell explored with the free command cannot be a mine;
+   it should always be empty. You can achieve this in many ways – it's up to you.
+
+
+
+
+   Checked soln on 8/10: was not correct
+   - 100% has something to do with the first free being on a bomb
